@@ -1,0 +1,106 @@
+body{
+	font-family: 'Rationale', sans-serif;
+	margin: auto 20%;
+  background-color: white;
+}
+table{
+  border-spacing: 0px;
+}
+
+hr{
+	display: inline-block;
+	width: 70%;
+	margin: 5px;
+}
+			.btnG {
+				height: 42px;
+				width: 56px;
+				background-color: orange;
+        border-radius: 10px;
+				cursor: pointer;
+        color: white;
+        margin-bottom: 5px;
+			}
+      .btnG:hover{
+        background-color: white;
+        color:black;
+      }
+      .btn{
+        border: 1px solid blue;
+        padding-left: 150px;
+        padding-right: 150px;
+        border-radius: 10px;
+        height: 30px;
+        margin: 5px;
+      }
+      .btn:hover{
+        background-color: black;
+        color:white;
+      }
+
+			.piece {
+				height: 40px;
+				width: 40px;
+				display:block;
+				border-radius: 50px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.player0 {
+				background-color: #DDDDDD; /* hex colors were used, but rgb/rgba could be used as well */
+			}
+
+			.player1 {
+				background-color: #FF0000;
+			}
+
+			.player2 {
+				background-color: blue;
+			}
+
+			.board_square {
+        padding: 0px;
+				height: 56px;
+				width: 56px;
+        background-color: black;
+			}
+      .hidden {
+        height: 56px;
+        width: 56px;
+        background-color: none;
+      }
+      .foundation{
+				height: 10px;
+				width: 406px;
+        background-color: black;
+        box-shadow: 2px 7px #888888;
+			}
+
+
+			.container{
+				width: 98%;
+				height: 20px;
+				margin: 20px;
+			}
+			.slider{
+				width:60%;
+				height: 15px;
+				-webkit-appearance:none;
+				border-radius: 5px;
+				background-color: blue;
+				box-shadow: inset 0 3px 18px rgba(0,0,0,0.6);
+			}
+			.slider::-webkit-slider-thumb{
+				-webkit-appearance:none;
+				width: 20px;
+				height: 20px;
+				background-color: white;
+				border-radius: 50%;
+				border: 1px solid black;
+				box-shadow: 2px 3px black;
+			}
+			.slider::-webkit-slider-thumb:hover{
+				box-shadow: 0 0 0 3px grey;
+										0 0 0 6px black;
+			}
